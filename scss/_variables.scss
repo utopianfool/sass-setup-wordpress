@@ -1,0 +1,134 @@
+/* Color system */
+ 
+$available-colours: (
+    "slate": #4d516b,
+    "charcoal": #555555,
+    "damson": #652637,
+    "violet": #4f47ae,
+    "ultramarine": #2355c8,
+    "tangerine": #f45132,
+    "geranium": #ff4175,
+    "watermelon": #e65257,
+    "indigo": #473ba1,
+    "storm": #384355,
+    "azur": #527EEB,
+    "mocha": #6A5E62,
+    "poppy": #E92E35,
+    "sea": #37aac9,
+    "emerald": #009974,
+    "bright-pink": #d0287f,
+    "navy": #002147,
+    "sky": #a1b8df,
+    "turquoise": #0080ca,
+    "cyan": #4fbaad,
+    "gold": #e2a300,
+    "green": #9fc63b,
+    "yellow": #ffd600,
+    "purple": #60146D,
+    "blue": #1797cd,
+    "red": #cc0935,
+    "orange": #ec6608,
+    "pink": #b051a4,
+    "grey": #e6eaee,
+    "grey-light": #F2F2F2,
+    "grey-dark": #707070,
+    "black": #231f20,
+    "white": #ffffff,
+    "black-full": #000
+);
+
+$slate: map-get($available-colours, "slate");
+$charcoal: map-get($available-colours, "charcoal");
+$damson: map-get($available-colours, "damson");
+$violet: map-get($available-colours, "violet");
+$ultramarine: map-get($available-colours, "ultramarine");
+$tangerine: map-get($available-colours, "tangerine");
+$geranium: map-get($available-colours, "geranium");
+$watermelon: map-get($available-colours, "watermelon");
+$indigo: map-get($available-colours, "indigo");
+$storm: map-get($available-colours, "storm");
+$azur: map-get($available-colours, "azur");
+$mocha: map-get($available-colours, "mocha");
+$poppy: map-get($available-colours, "poppy");
+$sea: map-get($available-colours, "sea");
+$emerald: map-get($available-colours, "emerald");
+$bright-pink: map-get($available-colours, "bright-pink");
+$navy: map-get($available-colours, "navy");
+$sky: map-get($available-colours, "sky");
+$turquoise: map-get($available-colours, "turquoise");
+$cyan: map-get($available-colours, "cyan");
+$gold: map-get($available-colours, "gold");
+$green: map-get($available-colours, "green");
+$yellow: map-get($available-colours, "yellow");
+$purple: map-get($available-colours, "purple");
+$blue: map-get($available-colours, "blue");
+$red: map-get($available-colours, "red");
+$orange: map-get($available-colours, "orange");
+$pink: map-get($available-colours, "pink");
+$grey: map-get($available-colours, "grey");
+$grey-light: map-get($available-colours, "grey-light");
+$grey-dark: map-get($available-colours, "grey-dark");
+$black: map-get($available-colours, "black");
+$white: map-get($available-colours, "white");
+$black-full: map-get($available-colours, "black-full");
+
+/* Colour variables */
+
+$purple-opaque: rgba(96, 20, 109, 0.35);
+$white-opaque: rgba(255, 255, 255, 0.75);
+$blue-opaque: rgba(0, 144, 215, 0.85);
+$aqua-opaque: rgba(38, 180, 176, 0.85);
+
+$site-light-blue: #0090d7;
+$site-blue: #4368b0;
+$site-purple: #812082;
+$site-aqua: #26b4b0;
+$site-yellow: #f5c400;
+$site-orange: #f27345;
+$site-dark-blue: #005587;
+$site-grey: #707070;
+$site-grey-light: #F5F5F5;
+$site-red: #FF0000;
+
+$danger: $site-red;
+
+/* Fonts */
+
+// Font family stacks
+$opensans-fontstack: ('OpenSans', Arial);
+$merriweather: ('Merriweather', serif);
+
+// Font sizes
+$font-size-extrasmall: 11px;
+$font-size-small: 12px;
+$font-size-medium: 14px;
+$font-size-common: 16px;
+$font-size-leadtext: 18px;
+$font-size-large: 30px;
+
+// Font weights
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+/* Bootstrap overrides */
+
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px,
+//   xxl: 1620px
+// );
+
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1140px,
+//   xxl: 1500px
+// );
+// 
+// $grid-gutter-width: 16px;

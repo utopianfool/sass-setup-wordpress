@@ -1,0 +1,74 @@
+/**
+ * Global styles
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  overflow-x: hidden; 
+}
+
+/* Apect ratio ===============================================*/
+
+.aspect {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.aspect:before {
+    content: '';
+    display: block;
+}
+
+.ratio1-1:before {
+    padding-top: 100%;
+}
+
+.ratio2-1:before {
+    padding-top: 50%;
+}
+
+.ratio4-3:before {
+    padding-top: 75%;
+}
+
+.ratio16-9:before {
+    padding-top: 56.25%;
+}
+
+.ratioThinBanner:before {
+    padding-top: 21%;
+}
+
+.aspect-content {    
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* media queries */
+@media (min-width: 522px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
+}

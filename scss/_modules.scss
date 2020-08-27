@@ -1,0 +1,20 @@
+// Run SASS watch in root theme folder where style.css is located
+// sass --watch scss/_modules.scss:style.css --style compressed
+// sass --watch scss/_modules.scss:style.css
+
+@import "variables.scss";
+
+@import "./bootstrap/bootstrap.scss";
+
+@import "style-header.scss";
+@import "wordpress.scss";
+@import "general.scss";
+@import "fonts.scss";
+@import "typography.scss";
+@import "header.scss";
+@import "front-page.scss";
+@import "page.scss";
+@import "sliders.scss";
+@import "gallery.scss";
+@import "animate.scss";
+@import "footer.scss";

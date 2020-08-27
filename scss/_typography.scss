@@ -1,0 +1,66 @@
+body {
+    font-family: $opensans-fontstack;
+    color: $grey-dark;
+}
+
+h1, h2, h3, h4,
+.h1, .h2, .h3, .h4 {
+    font-family: $merriweather;
+    text-transform: uppercase;
+}
+
+.lead-text {
+    font-size: 1.6rem;
+    line-height: 28px;
+}
+
+.small-text {
+    font-size: 0.7rem;
+    line-height: 20px;
+}
+
+button, .button, input[type="submit"] {
+    background-color: $white;
+    border: 1px solid $grey-dark;
+    color: $grey-dark;
+    font-size: $font-size-medium;
+    letter-spacing: 1.6px;
+    padding: 5px 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    white-space: nowrap;
+    &:hover {
+        background-color: $grey-dark;
+        color: #fff;
+    }
+}
+
+.button-inverted {
+    background-color: $grey-dark;
+    border: 1px solid $white;
+    color: $white;
+    font-size: $font-size-medium;
+    letter-spacing: 1.6px;
+    padding: 5px 20px;
+    text-align: center;
+    white-space: nowrap;
+    &:hover {
+        background-color: $white;
+        color: $grey-dark;
+        border: 1px solid $grey-dark;
+    }
+}
+
+
+/* Colour system
+ * Creates array of classes from avaiable colours 
+ */
+@each $colour, $hex in $available-colours {
+    .bg-#{$colour} {
+        background-color: $hex;
+    }
+
+    .text-#{$colour} {
+        color: $hex;
+    }
+}
